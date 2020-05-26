@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4083029247CF84900D7C4E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4083028247CF84900D7C4E9 /* AppDelegate.m */; };
+		F408302C247CF84900D7C4E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F408302B247CF84900D7C4E9 /* SceneDelegate.m */; };
+		F408302F247CF84900D7C4E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F408302E247CF84900D7C4E9 /* ViewController.m */; };
+		F4083032247CF84900D7C4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4083030247CF84900D7C4E9 /* Main.storyboard */; };
+		F4083034247CF84B00D7C4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4083033247CF84B00D7C4E9 /* Assets.xcassets */; };
+		F4083037247CF84C00D7C4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4083035247CF84C00D7C4E9 /* LaunchScreen.storyboard */; };
+		F408303A247CF84C00D7C4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4083039247CF84C00D7C4E9 /* main.m */; };
+		F4083044247CF84C00D7C4E9 /* EETipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4083043247CF84C00D7C4E9 /* EETipViewTests.m */; };
+		F408304F247CF84C00D7C4E9 /* EETipViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F408304E247CF84C00D7C4E9 /* EETipViewUITests.m */; };
+		F408305F247CF89D00D7C4E9 /* EETipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F408305E247CF89D00D7C4E9 /* EETipView.m */; };
+		F4083062247CFA2600D7C4E9 /* EETipArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4083061247CFA2500D7C4E9 /* EETipArrowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4083040247CF84C00D7C4E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F408301C247CF84900D7C4E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4083023247CF84900D7C4E9;
+			remoteInfo = EETipView;
+		};
+		F408304B247CF84C00D7C4E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F408301C247CF84900D7C4E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4083023247CF84900D7C4E9;
+			remoteInfo = EETipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4083024247CF84900D7C4E9 /* EETipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EETipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4083027247CF84900D7C4E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4083028247CF84900D7C4E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F408302A247CF84900D7C4E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F408302B247CF84900D7C4E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F408302D247CF84900D7C4E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F408302E247CF84900D7C4E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4083031247CF84900D7C4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4083033247CF84B00D7C4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4083036247CF84C00D7C4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4083038247CF84C00D7C4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4083039247CF84C00D7C4E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F408303F247CF84C00D7C4E9 /* EETipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EETipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4083043247CF84C00D7C4E9 /* EETipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EETipViewTests.m; sourceTree = "<group>"; };
+		F4083045247CF84C00D7C4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F408304A247CF84C00D7C4E9 /* EETipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EETipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F408304E247CF84C00D7C4E9 /* EETipViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EETipViewUITests.m; sourceTree = "<group>"; };
+		F4083050247CF84C00D7C4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F408305D247CF89D00D7C4E9 /* EETipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EETipView.h; sourceTree = "<group>"; };
+		F408305E247CF89D00D7C4E9 /* EETipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EETipView.m; sourceTree = "<group>"; };
+		F4083060247CFA2500D7C4E9 /* EETipArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EETipArrowView.h; sourceTree = "<group>"; };
+		F4083061247CFA2500D7C4E9 /* EETipArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EETipArrowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4083021247CF84900D7C4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F408303C247CF84C00D7C4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4083047247CF84C00D7C4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F408301B247CF84900D7C4E9 = {
+			isa = PBXGroup;
+			children = (
+				F4083026247CF84900D7C4E9 /* EETipView */,
+				F4083042247CF84C00D7C4E9 /* EETipViewTests */,
+				F408304D247CF84C00D7C4E9 /* EETipViewUITests */,
+				F4083025247CF84900D7C4E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4083025247CF84900D7C4E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4083024247CF84900D7C4E9 /* EETipView.app */,
+				F408303F247CF84C00D7C4E9 /* EETipViewTests.xctest */,
+				F408304A247CF84C00D7C4E9 /* EETipViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4083026247CF84900D7C4E9 /* EETipView */ = {
+			isa = PBXGroup;
+			children = (
+				F408305C247CF85C00D7C4E9 /* TipView */,
+				F4083027247CF84900D7C4E9 /* AppDelegate.h */,
+				F4083028247CF84900D7C4E9 /* AppDelegate.m */,
+				F408302A247CF84900D7C4E9 /* SceneDelegate.h */,
+				F408302B247CF84900D7C4E9 /* SceneDelegate.m */,
+				F408302D247CF84900D7C4E9 /* ViewController.h */,
+				F408302E247CF84900D7C4E9 /* ViewController.m */,
+				F4083030247CF84900D7C4E9 /* Main.storyboard */,
+				F4083033247CF84B00D7C4E9 /* Assets.xcassets */,
+				F4083035247CF84C00D7C4E9 /* LaunchScreen.storyboard */,
+				F4083038247CF84C00D7C4E9 /* Info.plist */,
+				F4083039247CF84C00D7C4E9 /* main.m */,
+			);
+			path = EETipView;
+			sourceTree = "<group>";
+		};
+		F4083042247CF84C00D7C4E9 /* EETipViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4083043247CF84C00D7C4E9 /* EETipViewTests.m */,
+				F4083045247CF84C00D7C4E9 /* Info.plist */,
+			);
+			path = EETipViewTests;
+			sourceTree = "<group>";
+		};
+		F408304D247CF84C00D7C4E9 /* EETipViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F408304E247CF84C00D7C4E9 /* EETipViewUITests.m */,
+				F4083050247CF84C00D7C4E9 /* Info.plist */,
+			);
+			path = EETipViewUITests;
+			sourceTree = "<group>";
+		};
+		F408305C247CF85C00D7C4E9 /* TipView */ = {
+			isa = PBXGroup;
+			children = (
+				F408305D247CF89D00D7C4E9 /* EETipView.h */,
+				F408305E247CF89D00D7C4E9 /* EETipView.m */,
+				F4083060247CFA2500D7C4E9 /* EETipArrowView.h */,
+				F4083061247CFA2500D7C4E9 /* EETipArrowView.m */,
+			);
+			path = TipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4083023247CF84900D7C4E9 /* EETipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4083053247CF84C00D7C4E9 /* Build configuration list for PBXNativeTarget "EETipView" */;
+			buildPhases = (
+				F4083020247CF84900D7C4E9 /* Sources */,
+				F4083021247CF84900D7C4E9 /* Frameworks */,
+				F4083022247CF84900D7C4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EETipView;
+			productName = EETipView;
+			productReference = F4083024247CF84900D7C4E9 /* EETipView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F408303E247CF84C00D7C4E9 /* EETipViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4083056247CF84C00D7C4E9 /* Build configuration list for PBXNativeTarget "EETipViewTests" */;
+			buildPhases = (
+				F408303B247CF84C00D7C4E9 /* Sources */,
+				F408303C247CF84C00D7C4E9 /* Frameworks */,
+				F408303D247CF84C00D7C4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4083041247CF84C00D7C4E9 /* PBXTargetDependency */,
+			);
+			name = EETipViewTests;
+			productName = EETipViewTests;
+			productReference = F408303F247CF84C00D7C4E9 /* EETipViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4083049247CF84C00D7C4E9 /* EETipViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4083059247CF84C00D7C4E9 /* Build configuration list for PBXNativeTarget "EETipViewUITests" */;
+			buildPhases = (
+				F4083046247CF84C00D7C4E9 /* Sources */,
+				F4083047247CF84C00D7C4E9 /* Frameworks */,
+				F4083048247CF84C00D7C4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F408304C247CF84C00D7C4E9 /* PBXTargetDependency */,
+			);
+			name = EETipViewUITests;
+			productName = EETipViewUITests;
+			productReference = F408304A247CF84C00D7C4E9 /* EETipViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F408301C247CF84900D7C4E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "forthonliu(刘赋山)";
+				TargetAttributes = {
+					F4083023247CF84900D7C4E9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F408303E247CF84C00D7C4E9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F4083023247CF84900D7C4E9;
+					};
+					F4083049247CF84C00D7C4E9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F4083023247CF84900D7C4E9;
+					};
+				};
+			};
+			buildConfigurationList = F408301F247CF84900D7C4E9 /* Build configuration list for PBXProject "EETipView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F408301B247CF84900D7C4E9;
+			productRefGroup = F4083025247CF84900D7C4E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4083023247CF84900D7C4E9 /* EETipView */,
+				F408303E247CF84C00D7C4E9 /* EETipViewTests */,
+				F4083049247CF84C00D7C4E9 /* EETipViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4083022247CF84900D7C4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4083037247CF84C00D7C4E9 /* LaunchScreen.storyboard in Resources */,
+				F4083034247CF84B00D7C4E9 /* Assets.xcassets in Resources */,
+				F4083032247CF84900D7C4E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F408303D247CF84C00D7C4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4083048247CF84C00D7C4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4083020247CF84900D7C4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F408302F247CF84900D7C4E9 /* ViewController.m in Sources */,
+				F4083029247CF84900D7C4E9 /* AppDelegate.m in Sources */,
+				F408303A247CF84C00D7C4E9 /* main.m in Sources */,
+				F4083062247CFA2600D7C4E9 /* EETipArrowView.m in Sources */,
+				F408302C247CF84900D7C4E9 /* SceneDelegate.m in Sources */,
+				F408305F247CF89D00D7C4E9 /* EETipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F408303B247CF84C00D7C4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4083044247CF84C00D7C4E9 /* EETipViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4083046247CF84C00D7C4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F408304F247CF84C00D7C4E9 /* EETipViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4083041247CF84C00D7C4E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4083023247CF84900D7C4E9 /* EETipView */;
+			targetProxy = F4083040247CF84C00D7C4E9 /* PBXContainerItemProxy */;
+		};
+		F408304C247CF84C00D7C4E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4083023247CF84900D7C4E9 /* EETipView */;
+			targetProxy = F408304B247CF84C00D7C4E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4083030247CF84900D7C4E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4083031247CF84900D7C4E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4083035247CF84C00D7C4E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4083036247CF84C00D7C4E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4083051247CF84C00D7C4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4083052247CF84C00D7C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4083054247CF84C00D7C4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EETipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ee.forthonliu.EETipView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4083055247CF84C00D7C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EETipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ee.forthonliu.EETipView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4083057247CF84C00D7C4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EETipViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ee.forthonliu.EETipViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EETipView.app/EETipView";
+			};
+			name = Debug;
+		};
+		F4083058247CF84C00D7C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EETipViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ee.forthonliu.EETipViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EETipView.app/EETipView";
+			};
+			name = Release;
+		};
+		F408305A247CF84C00D7C4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EETipViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ee.forthonliu.EETipViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EETipView;
+			};
+			name = Debug;
+		};
+		F408305B247CF84C00D7C4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EETipViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ee.forthonliu.EETipViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EETipView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F408301F247CF84900D7C4E9 /* Build configuration list for PBXProject "EETipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4083051247CF84C00D7C4E9 /* Debug */,
+				F4083052247CF84C00D7C4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4083053247CF84C00D7C4E9 /* Build configuration list for PBXNativeTarget "EETipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4083054247CF84C00D7C4E9 /* Debug */,
+				F4083055247CF84C00D7C4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4083056247CF84C00D7C4E9 /* Build configuration list for PBXNativeTarget "EETipViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4083057247CF84C00D7C4E9 /* Debug */,
+				F4083058247CF84C00D7C4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4083059247CF84C00D7C4E9 /* Build configuration list for PBXNativeTarget "EETipViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F408305A247CF84C00D7C4E9 /* Debug */,
+				F408305B247CF84C00D7C4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F408301C247CF84900D7C4E9 /* Project object */;
+}
