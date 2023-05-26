@@ -1,2 +1,3 @@
 # EETipView
-Tip1222
+Tip122
+13
