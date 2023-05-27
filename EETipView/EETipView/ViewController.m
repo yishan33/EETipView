@@ -33,6 +33,7 @@
     arrowView.frame = CGRectMake(100, 100, 50, 50);
     
     [self.view addSubview:arrowView];
+    
 
 }
 
