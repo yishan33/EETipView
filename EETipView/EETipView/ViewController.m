@@ -26,6 +26,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    
     EETipArrowView *arrowView = [[EETipArrowView alloc] initWithColor:UIColor.orangeColor type:EETipArrowTypeUp];
     arrowView.backgroundColor = [UIColor redColor];
     arrowView.frame = CGRectMake(100, 100, 50, 50);
